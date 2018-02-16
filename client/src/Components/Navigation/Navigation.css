@@ -1,0 +1,9 @@
+.Nav {
+    width: 100%;
+    min-height: 50px;
+    
+    background-color: #2a4d69;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}

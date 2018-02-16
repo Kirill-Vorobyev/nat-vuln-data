@@ -1,0 +1,20 @@
+{
+  "name": "nat-vuln-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ddos": "^0.1.25",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2"
+  }
+}

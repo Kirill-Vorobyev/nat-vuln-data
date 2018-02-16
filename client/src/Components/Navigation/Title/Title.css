@@ -1,0 +1,31 @@
+.MainTitle {
+    font-weight: bold;
+    color: #e7eff6;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: 24px;
+}
+
+.MobileTitle {
+    font-weight: bold;
+    color: #e7eff6;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: 24px;
+}
+
+@media(max-width: 729px){
+    .MainTitle {
+        display: none;
+    }
+}
+
+@media(min-width: 730px){
+    .MobileTitle {
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+.SearchResults {
+    width: 98%;
+    max-height: 600px;
+    margin: auto;
+    margin-bottom: 16px;
+    justify-content: center;
+    overflow-y: auto;
+}
