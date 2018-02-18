@@ -20,7 +20,9 @@ npm start
 *This will launch the express server.*
 
 Once you see
-> Listening on port 5000
+```
+Listening on port 5000
+```
 **You're good to go**
 
 #### Visit http://localhost:5000/ in a browser to view the app
