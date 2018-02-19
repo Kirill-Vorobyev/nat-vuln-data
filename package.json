@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest",
+    "test": "jest && cd client && npm test",
     "postinstall": "cd client && npm install"
   },
   "keywords": [],
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "jest": "^22.2.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/client/","/node_modules/"]
   }
 }
