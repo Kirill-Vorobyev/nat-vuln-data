@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/Kirill-Vorobyev/nat-vuln-data.svg?branch=master)](https://travis-ci.org/Kirill-Vorobyev/nat-vuln-data)
-
 # National Vulnerability Database Display Tool
+[![Build Status](https://travis-ci.org/Kirill-Vorobyev/nat-vuln-data.svg?branch=master)](https://travis-ci.org/Kirill-Vorobyev/nat-vuln-data)
 
 ## About:
 Display tool for the NVD Dataset
