@@ -1,8 +1,19 @@
 # National Vulnerability Database Display Tool
 
+## About:
+Display tool for the NVD Dataset
+
 Express server with rest api endpoints for data retrieval and file serving.
 
 React front end for displaying retrieved data.
+
+#### Demo:
+https://nat-vuln-data.herokuapp.com/
+
+- Dataset currently available: **2017**
+- Keyword search returns all matching results from dataset
+- Scroll to the bottom to load more entires from the dataset into the ist.
+- Clicking on a list entry searches the entire dataset for that CVE and returns all results.
 
 ## To set up and run:
 This project requires node.js to be installed on the system.
@@ -19,7 +30,7 @@ npm start
 ```
 *This will launch the express server.*
 
-Once you see
+- Once you see:
 ```
 Listening on port 5000
 ```
