@@ -6,18 +6,18 @@ const path = require('path');
 const api = require('./server/api/api');
 
 //initialize express
-const service = express();
+const app = express();
 
-service.use(ddos.express);
+app.use(ddos.express);
 
 //serve react files
-service.use(express.static(path.join(__dirname,'client/build')));
+app.use(express.static(path.join(__dirname,'client/build')));
 
 //put all api endpoints under '/api'
-service.use('/api',api);
+app.use('/api',api);
 
 //catchall redirect back to react front-end
-service.get('*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
@@ -25,7 +25,7 @@ service.get('*', (req, res) => {
 const port = process.env.PORT || 5000;
 
 //enable listener
-service.listen(port);
+app.listen(port);
 
 //verify port
 console.log(`Listening on port ${port}`);
